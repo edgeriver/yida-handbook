@@ -1,0 +1,29 @@
+[project]
+name = "yida-handbook"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "jieba>=0.42.1",
+    "myst-parser>=5.0.0",
+    "sphinx==8.2.3",
+    "sphinx-autodoc-typehints>=3.5.2",
+    "sphinx-comments>=0.0.3",
+    "sphinx-copybutton>=0.5.2",
+    "sphinx-design>=0.7.0",
+    "sphinx-rtd-theme>=3.1.0",
+    "sphinx-thebe>=0.3.1",
+    "sphinx-togglebutton>=0.4.5",
+    "sphinxcontrib-bibtex>=2.6.5",
+    "sphinxcontrib-mermaid>=2.0.1",
+]
+
+[dependency-groups]
+dev = [
+    "sphinx-autobuild>=2025.8.25",
+]
+
+[[tool.uv.index]]
+url = "https://mirrors.aliyun.com/pypi/simple"
+default = true
